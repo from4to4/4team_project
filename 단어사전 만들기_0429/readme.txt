@@ -12,5 +12,5 @@
 	
 - 리스트 불러오기
 import pickle
-with open('data/adjective_list.pickle', 'rb') as f:
-    adj_list_by_model1 = pickle.load(f)
+with open('data/adjective_list.pickle', 'rb') as f: 
+	adjective_list = pickle.load(f) # 리스트 불러오기
